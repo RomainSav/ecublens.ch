@@ -2,16 +2,20 @@
 
 import { ReactElement } from "react";
 import Link from "next/link";
+import { clsx } from "clsx";
 import { type Menu, links } from "./navbar.util";
 
 export const Navbar = (): ReactElement => {
     return (
         <nav className="container relative">
             <ul className="flex gap-32 justify-center">
-                {links.map((link, i) => (
+                {links.map((link) => (
                     <li key={link.id} className="group">
-                        <span className="flex py-3 uppercase tracking-wide cursor-pointer">{link.name}</span>
-                        <div className="hidden group-hover:block">
+                        <span className="flex py-3 font-medium uppercase tracking-wide cursor-pointer">{link.name}</span>
+                        <div className={clsx(
+                            "pointer-events-none opacity-0 transition-opacity duration-300",
+                            "group-hover:block group-hover:opacity-100 group-hover:pointer-events-auto"
+                        )}>
                             <Dropdown menus={link.menu} />
                         </div>
                     </li>
