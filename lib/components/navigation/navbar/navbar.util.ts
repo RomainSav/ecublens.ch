@@ -3,7 +3,7 @@ import config from "@public/config/menu.json";
 export type Link = {
     id: number;
     name: string;
-    menu: Menu[];
+    menus: Menu[];
 };
 
 export type Menu = {

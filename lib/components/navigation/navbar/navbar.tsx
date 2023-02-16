@@ -16,7 +16,7 @@ export const Navbar = (): ReactElement => {
                             "pointer-events-none opacity-0 transition-opacity duration-150",
                             "group-hover:block group-hover:opacity-100 group-hover:pointer-events-auto"
                         )}>
-                            <Dropdown menus={link.menu} />
+                            <Dropdown menus={link.menus} />
                         </div>
                     </li>
                 ))}
@@ -35,7 +35,7 @@ const Dropdown = ({ menus }: { menus: Menu[] }): ReactElement => {
                         <ul>
                             {menu.links.map((link, i) => (
                                 <li>
-                                    <Link key={i} href={link.href} className="text-neutral-700 text-sm hover:underline">
+                                    <Link key={i} href={link.href} className="text-neutral-700 text-sm break-words hover:underline">
                                         {link.name}
                                     </Link>
                                 </li>

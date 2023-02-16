@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Cadre de vie",
-        "menu": [
+        "menus": [
             {
                 "title": "Résidents",
                 "links": [
@@ -158,21 +158,262 @@
     {
         "id": 2,
         "name": "Découvrir",
-        "menu": []
+        "menus": [
+            {
+                "title": "La commune",
+                "links": [
+                    {
+                        "name": "Bienvenue du Syndic",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Ecublens aujourd'hui",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Ecublens hier",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "A voir à Ecublens",
+                "links": [
+                    {
+                        "name": "Balades",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Eglise du Motty",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Galerie du Pressoir",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Gameau de Bassenges",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Hameau de Renges",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Site de Dorigny",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Sportcity tour",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Autres",
+                "links": [
+                    {
+                        "name": "Film sur Ecublens",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Galerie photos",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Boutique",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Transports",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Plan de ville",
+                        "href": "/"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 3,
-        "name": "Services",
-        "menu": []
+        "name": "Officiel",
+        "menus": [
+            {
+                "title": "Informations",
+                "links": [
+                    {
+                        "name": "Annuaire téléphonique",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Démarches administratives",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Règlements communaux",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Prestations en ligne",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Administration",
+                "links": [
+                    {
+                        "name": "Greffe municipal",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Archives communales",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Assurances sociales/AVS",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Bâtiments/Evacutation des eaux/Durabilité",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Service des habitants/Bureau des étrangers",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Culture/Jeunesse/Sports/Intégration/Eglises",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Ecoles",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Feu",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Finances et informatique",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Naturalisation",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Police",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Ressources humaines",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Services industriels",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Social/Familles/Logement",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Travaux publics et environnement",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Urbanisme/Mobilité/Constructions",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Conseil communal",
+                "links": [
+                    {
+                        "name": "Composition",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Compétences",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Comissions",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Partis politiques",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Budgets et comptes",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Rapports de gestion",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Préavis municipaux",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Liste des préavis acceptés",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Procès-verbaux",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Séances et ordres du jour",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Municipalité",
+                "links": [
+                    {
+                        "name": "Composition",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Programme de législature",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Votations et élections",
+                "links": [
+                    {
+                        "name": "Comment voter",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Prochaines votations/élections",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Elections communales",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Elections complémentaires à la Municipalité",
+                        "href": "/"
+                    }
+                ]
+            }
+        ]
     },
     {
-        "id": 4,
-        "name": "Politique",
-        "menu": []
-    },
-    {
-        "id": 5,
+        "id": 44,
         "name": "Accès direct",
-        "menu": []
+        "menus": []
     }
 ]
