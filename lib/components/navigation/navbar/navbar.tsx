@@ -13,7 +13,7 @@ export const Navbar = (): ReactElement => {
                     <li key={link.id} className="group">
                         <span className="flex py-3 font-medium uppercase tracking-wide cursor-pointer">{link.name}</span>
                         <div className={clsx(
-                            "pointer-events-none opacity-0 transition-opacity duration-300",
+                            "pointer-events-none opacity-0 transition-opacity duration-150",
                             "group-hover:block group-hover:opacity-100 group-hover:pointer-events-auto"
                         )}>
                             <Dropdown menus={link.menu} />
