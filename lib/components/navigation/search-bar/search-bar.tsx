@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import clsx from "clsx";
+import { clsx } from "clsx";
 
 export const SearchBar = (): ReactElement => {
     return (

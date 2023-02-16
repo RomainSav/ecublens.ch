@@ -1,8 +1,7 @@
 import { ReactElement } from "react";
-
-import { LogoIcon } from "@lib/components/icons";
-import SearchBar from "@lib/components/navigation/search-bar";
 import Link from "next/link";
+import { LogoIcon } from "@lib/components/icons";
+import { SearchBar } from "@lib/components/navigation/search-bar";
 
 export const Header = (): ReactElement => {
     return (
