@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "name": "Cadre de vie",
+        "menu": [
+            {
+                "title": "Résidents",
+                "links": [
+                    {
+                        "name": "S'établir à Ecublens",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Jeunesse",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Petite enfance",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Subsides parents",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Aînés / 55 et +",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Etudiants",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Santé",
+                "links": [
+                    {
+                        "name": "Numéros d'urgence",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Dépendances",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Services intercommunaux",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Ecublens en santé",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Plan canicule",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Manifestations",
+                "links": [
+                    {
+                        "name": "Calendrier",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Promotion",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Salles/Refuge",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Patinoire gratuite",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Durablitié",
+                "links": [
+                    {
+                        "name": "Plan climat",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Politiques de durablitié",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Cité de l'énergie",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Cadastre solaire",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Vie culturelle",
+                "links": [
+                    {
+                        "name": "Bibliothèque",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Ludothèque",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Boîte à livres",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Galerie du Pressoir",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Ecublens Animation",
+                        "href": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Transports",
+                "links": [
+                    {
+                        "name": "Transports publics",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Cartes journalières CFF/CGN",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Mobility",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Covoiturage",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Mobilité douce",
+                        "href": "/"
+                    },
+                    {
+                        "name": "Stationnement",
+                        "href": "/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Découvrir",
+        "menu": []
+    },
+    {
+        "id": 3,
+        "name": "Services",
+        "menu": []
+    },
+    {
+        "id": 4,
+        "name": "Politique",
+        "menu": []
+    },
+    {
+        "id": 5,
+        "name": "Accès direct",
+        "menu": []
+    }
+]

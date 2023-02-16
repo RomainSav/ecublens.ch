@@ -1,3 +1,5 @@
+"use client"
+
 import "@lib/styles/global.css";
 
 import { ReactElement, ReactNode } from "react";
