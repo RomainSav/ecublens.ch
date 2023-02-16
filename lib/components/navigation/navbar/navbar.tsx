@@ -34,8 +34,8 @@ const Dropdown = ({ menus }: { menus: Menu[] }): ReactElement => {
                         <h2 className="font-semibold tracking-wide uppercase">{'>'} {menu.title}</h2>
                         <ul>
                             {menu.links.map((link, i) => (
-                                <li>
-                                    <Link key={i} href={link.href} className="text-neutral-700 text-sm break-words hover:underline">
+                                <li key={i}>
+                                    <Link href={link.href} className="text-neutral-700 text-sm break-words hover:underline">
                                         {link.name}
                                     </Link>
                                 </li>
