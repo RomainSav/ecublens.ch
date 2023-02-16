@@ -4,6 +4,7 @@ import { ReactElement } from "react";
 import Link from "next/link";
 import { clsx } from "clsx";
 import { type Menu, links } from "./navbar.util";
+import { InstagramIcon, FacebookIcon, LinkedinIcon } from "@lib/components/icons";
 
 export const Navbar = (): ReactElement => {
     return (
@@ -20,6 +21,17 @@ export const Navbar = (): ReactElement => {
                         </div>
                     </li>
                 ))}
+                <li className="flex items-center gap-2">
+                    <Link href="https://www.instagram.com/ville_ecublens/" target="_blank">
+                        <InstagramIcon className="fill-black h-6 w-6" />
+                    </Link>
+                    <Link href="https://fr.linkedin.com/company/ville-d-ecublens-vd" target="_blank">
+                        <LinkedinIcon className="fill-black h-6 w-6" />
+                    </Link>
+                    <Link href="https://www.facebook.com/villeecublens" target="_blank">
+                        <FacebookIcon className="fill-black h-6 w-6" />
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
