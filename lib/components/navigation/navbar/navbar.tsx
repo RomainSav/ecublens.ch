@@ -8,7 +8,7 @@ import { InstagramIcon, FacebookIcon, LinkedinIcon } from "@lib/components/icons
 
 export const Navbar = (): ReactElement => {
     return (
-        <nav className="container relative">
+        <nav className="container relative z-50">
             <ul className="flex gap-32 justify-center">
                 {links.map((link) => (
                     <li key={link.id} className="group">
@@ -39,7 +39,7 @@ export const Navbar = (): ReactElement => {
 
 const Dropdown = ({ menus }: { menus: Menu[] }): ReactElement => {
     return (
-        <div className="absolute pt-3 left-0 right-0 mx-32">
+        <div className="absolute z-50 pt-3 left-0 right-0 mx-32">
             <div className=" bg-white top-10 grid grid-cols-5 gap-8 p-10 rounded-md shadow-md">
                 {menus.map((menu, i) => (
                     <div key={i}>
